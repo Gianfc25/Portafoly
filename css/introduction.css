@@ -1,0 +1,41 @@
+.introduction {
+    margin: auto;
+}
+
+.introduction-content {
+padding-block-start: 40px;
+padding-block-end: 40px;
+}
+
+.introduction-image {
+    text-align: center;
+}
+.introduction-image img{
+    width: 80px;
+    height: 80px;
+}
+
+.introduction .phrase {
+    font: var(--headline5);
+    font-weight: 300;
+    text-align: center;
+}
+
+.introduction .archive {
+    font: var(--headline5);
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .introduction-content {
+        padding-inline-start: 80px;
+        padding-inline-end: 80px;
+        padding-block-start: 80px;
+        padding-block-end: 80px;
+        }
+    .introduction .phrase {
+        font: var(--headline4);
+        font-weight: 300;
+    }
+    
+}
